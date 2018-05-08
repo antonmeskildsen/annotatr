@@ -1,6 +1,6 @@
 # Annotatr
 
-![Annotatr preview](anno.png)
+![Annotatr preview](anno.jpg)
 
 Annotatr is a tool for creating geometric feature annotations for videos. It was created as part of a project about detecting eye features using deep neural networks and as such is still very much a work-in-progress. Right now the most important features are
 
@@ -35,14 +35,14 @@ Annotatr is a tool for creating geometric feature annotations for videos. It was
 The editor uses so-called trackfiles for storing the annotations. It's just JSON and has the following form:
 ```json
 {
-    "length": ...,
-    "video_resolution": ...,
+    "length": 5000,
+    "video_resolution": [720, 1280],
     "tracks": [
         {
-            "name": ...,
-            "type": ...,
+            "name": "eye_left",
+            "type": "inscribed_circle",
             "data": [
-                ...
+                
             ]
         }
     ]
