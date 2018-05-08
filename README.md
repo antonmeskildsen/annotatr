@@ -1,6 +1,6 @@
 # Annotatr
 
-![Annotatr preview](https://pupil-data.ams3.digitaloceanspaces.com/extra-resources/anno.jpg)
+![Annotatr preview](anno.png)
 
 Annotatr is a tool for creating geometric feature annotations for videos. It was created as part of a project about detecting eye features using deep neural networks and as such is still very much a work-in-progress. Right now the most important features are
 
