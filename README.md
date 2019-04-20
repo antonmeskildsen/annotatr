@@ -36,7 +36,10 @@ The editor uses so-called trackfiles for storing the annotations. It's just JSON
 ```json
 {
     "length": 5000,
-    "video_resolution": [720, 1280],
+    "video_resolution": {
+        "width": 720,
+        "height": 1280
+    },
     "tracks": [
         {
             "name": "eye_left",
